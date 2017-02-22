@@ -4,6 +4,8 @@
 
 wow, very doge-style chai language chains, much silly
 
+![Much summary](img/doge.jpg)
+
 
 ## such install
 
@@ -27,15 +29,15 @@ const expect = chai.expect
 
 such("getTreats", function () {
 
-  wow("very test", function () {
-    const treats = getTreats(10)
-    expect(treats).so.lengthOf(10)
-  })
+ wow("very test", function () {
+  const treats = getTreats(10)
+  expect(treats).so.lengthOf(10)
+ })
 
-  wow("many chaining", function () {
-    const treats = getTreats(100)
-    expect(treats).wow.such.many.lengthOf(100)    
-  })
+ wow("many chaining", function () {
+  const treats = getTreats(100)
+  expect(treats).wow.such.many.lengthOf(100)    
+ })
 })
 ```
 
@@ -43,3 +45,5 @@ such("getTreats", function () {
 ## so words
 
 "such", "very", "wow", "amaze", "so", "many", and "much".
+
+[doge-meme]: https://imgflip.com/i/1k4sd7
