@@ -9,11 +9,13 @@ const expect = chai.expect
 such("chai-doge", function () {
   wow("very new properties", function () {
     for (let chain of ["such", "very", "wow", "amaze", "so", "many", "much"]) {
-      expect(() => { expect(1)[chain].equal(1) }).not.to.throw()
+      expect(
+        () => { expect(1)[chain].equal(1) }
+      ).not.to.throw()
     }
   })
 
-  wow("very chain", function () {
+  wow("many chain", function () {
     expect(() => {
       expect(1).such.very.wow.many.amaze.so.much.equal(1)
     }).not.to.throw()
