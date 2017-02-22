@@ -1,0 +1,33 @@
+{
+  "name": "chai-doge",
+  "version": "1.0.0",
+  "description": "wow   very assertion   much doge",
+  "main": "__build/chai-doge.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "babel src --out-dir __build --source-maps inline",
+    "prepublish": "npm run build",
+    "watch-build": "npm run build -- --watch",
+    "watch-test": "npm test -- --watch"
+  },
+  "author": "Neil de Carteret <git@lumphammer.com>",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {},
+  "eslintConfig": {
+    "extends": "@n3dst4/eslint-config-n3dst4"
+  },
+  "devDependencies": {
+    "@n3dst4/eslint-config-n3dst4": "^2.1.0",
+    "babel-eslint": "^6.0.4",
+    "eslint": "^2.12.0",
+    "eslint-plugin-babel": "^3.0.0",
+    "eslint-plugin-react": "^5.1.1",
+    "babel-cli": "^6.5.1",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "babel-register": "^6.7.2"
+  }
+}

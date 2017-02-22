@@ -1,0 +1,8 @@
+{
+  "generator-n3dst4-package": {
+    "babel": true,
+    "name": "chai-doge",
+    "camelName": "chaiDoge",
+    "shortName": "chai-doge"
+  }
+}
