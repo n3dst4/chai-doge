@@ -4,7 +4,7 @@
 
 wow, very doge-style chai language chains, much silly
 
-![Much summary](img/doge.jpg)
+![Much summary](https://i.imgflip.com/1k4sd7.jpg)
 
 
 ## such install
