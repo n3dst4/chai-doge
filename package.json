@@ -1,7 +1,7 @@
 {
   "name": "chai-doge",
   "version": "1.0.0",
-  "description": "wow   very assertion   much doge",
+  "description": "wow, very doge-style chai language chains, much silly",
   "main": "__build/chai-doge.js",
   "scripts": {
     "test": "mocha",
