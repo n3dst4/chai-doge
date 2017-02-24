@@ -13,7 +13,12 @@
   },
   "author": "Neil de Carteret <git@lumphammer.com>",
   "license": "ISC",
-  "keywords": [],
+  "keywords": [
+    "chai",
+    "chai-plugin",
+    "doge",
+    "wow"
+  ],
   "dependencies": {},
   "eslintConfig": {
     "extends": "@n3dst4/eslint-config-n3dst4"
