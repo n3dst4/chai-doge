@@ -1,6 +1,6 @@
 {
   "name": "chai-doge",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "wow, very doge-style chai language chains, much silly",
   "repository": "https://github.com/n3dst4/chai-doge",
   "main": "__build/chai-doge.js",
