@@ -2,9 +2,9 @@
 
 ![Build status](https://travis-ci.org/n3dst4/chai-doge.svg?branch=master)
 
-wow, very doge-style chai language chains, much silly
+wow, very doge-style do-nothing language chains for [Chai](http://chaijs.com/), much silly
 
-![Much summary](https://i.imgflip.com/1k4sd7.jpg)
+![Much summary](https://i.imgflip.com/1k9uni.jpg)
 
 
 ## such install
@@ -29,15 +29,15 @@ const expect = chai.expect
 
 such("getTreats", function () {
 
- wow("very test", function () {
-  const treats = getTreats(10)
-  expect(treats).so.lengthOf(10)
- })
+  wow("very test", function () {
+    const treats = getTreats(10)
+    expect(treats).so.lengthOf(10)
+  })
 
- wow("many chaining", function () {
-  const treats = getTreats(100)
-  expect(treats).wow.such.many.lengthOf(100)    
- })
+  wow("many chaining", function () {
+    const treats = getTreats(100)
+    expect(treats).wow.such.many.lengthOf(100)    
+  })
 })
 ```
 
@@ -46,4 +46,4 @@ such("getTreats", function () {
 
 "such", "very", "wow", "amaze", "so", "many", and "much".
 
-[doge-meme]: https://imgflip.com/i/1k4sd7
+[doge-meme]: https://imgflip.com/i/1k9uni
